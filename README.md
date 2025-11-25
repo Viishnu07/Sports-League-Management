@@ -1,6 +1,6 @@
 # Sports League Management System
 
-A deliberately vulnerable web application designed for cybersecurity educational workshops and CTF challenges. This application contains multiple security vulnerabilities for learning purposes.
+A deliberately vulnerable web application designed for fun
 
 ## ⚠️ WARNING
 
@@ -75,5 +75,6 @@ python app.py
 ## License
 
 This project is provided for educational purposes only.
+
 
 
