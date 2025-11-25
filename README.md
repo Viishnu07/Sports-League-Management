@@ -14,16 +14,6 @@ A deliberately vulnerable web application designed for cybersecurity educational
 - Admin panel for managing teams and scores
 - File upload functionality
 
-## Vulnerabilities Included
-
-1. **SQL Injection (SQLi)** - Login and registration forms
-2. **Stored Cross-Site Scripting (XSS)** - Team description field
-3. **Insecure Direct Object Reference (IDOR)** - Team editing endpoint
-4. **Broken Access Control** - Admin panel access
-5. **File Upload RCE** - Unrestricted file uploads
-6. **JWT Misconfiguration** - Weak secrets and no expiration
-7. **Security Misconfiguration** - Debug mode enabled, hardcoded secrets
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -67,7 +57,6 @@ python app.py
 ├── setup_db.py            # Database initialization script
 ├── requirements.txt       # Python dependencies
 ├── README.md             # This file
-├── EXPLOITATION_GUIDE.md # Detailed exploitation guide
 ├── templates/            # HTML templates
 │   ├── base.html
 │   ├── login.html
@@ -83,13 +72,8 @@ python app.py
 
 ## Educational Use
 
-This application is designed for:
-- Cybersecurity training workshops
-- CTF (Capture The Flag) competitions
-- Security awareness training
-- Learning web application security
-
 ## License
 
 This project is provided for educational purposes only.
+
 
